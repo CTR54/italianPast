@@ -1,0 +1,56 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+header{
+    height: 100px;;
+    display: flex;
+    justify-content: space-between;
+    
+}
+header img{
+    height: 100px;
+}
+nav ul {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+nav li{
+    padding: 5px;
+}
+#container{
+    padding: 25px;
+}
+.boas-vindas{
+     color: #CCF4DE;
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-image: url(img/Flux_Dev_a_hyper_realistic_3D_render_of_an_Italian_pasta_dish__2.jpg);
+    background-position: center;
+    padding: 200px;   
+}
+.textoBem-vindo{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    
+}
+
+
+.layoutConteudo{
+    margin: 25px;
+    padding: 70px 87px;
+    display: flex;
+    gap: 20px;
+    
+}
+.segredoDaMassa{
+    background-image: url(img/fundo_amadeirado_para_site_com_textura_de_madeira_esc_3.jpg);
+}
