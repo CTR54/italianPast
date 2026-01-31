@@ -29,18 +29,20 @@ nav li{
     padding: 25px;
 }
 .boas-vindas{
-     color: #CCF4DE;
+     color: #fff;
     height: 80vh;
     background-repeat: no-repeat;
     background-image: url(img/Flux_Dev_a_hyper_realistic_3D_render_of_an_Italian_pasta_dish__2.jpg);
-    background-position: center;
-    padding: 200px;   
+    background-position: center 10px;
+    padding: 200px; 
+    margin-left: 45px;
+    text-shadow: 1px 1px 1.5px rgba(0, 0, 0, 0.7); 
 }
 .textoBem-vindo{
     display: flex;
     align-items: flex-end;
     justify-content: space-around;
-    
+    width:90vw;
 }
 
 
@@ -53,4 +55,7 @@ nav li{
 }
 .segredoDaMassa{
     background-image: url(img/fundo_amadeirado_para_site_com_textura_de_madeira_esc_3.jpg);
+}
+.textoSegredoDaMassa{
+    color: #fff;
 }
