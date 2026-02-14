@@ -1,0 +1,143 @@
+/* ========== RESPONSIVO PARA MOBILE ========== */
+
+@media (max-width: 768px) {
+    /* Header responsivo */
+    header {
+        height: 10px;
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        gap: 10px;
+    }
+
+    header img {
+        height: 80px;
+    }
+
+    /* Navegação em coluna */
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+        margin: 10px 0;
+        width: 100%;
+    }
+
+    nav li {
+        width: 100%;
+        text-align: center;
+    }
+
+    /* Botões em mobile */
+    .btn {
+        width: 100%;
+        padding: 12px 10px;
+        display: block;
+    }
+
+    /* Container principal */
+    #container {
+        padding: 15px;
+    }
+
+    /* Seção de boas-vindas */
+    .boas-vindas {
+        height: auto;
+        padding: 50px 20px;
+        margin-left: 0;
+        background-size: cover;
+    }
+
+    .textoBem-vindo {
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+
+    .textoBem-vindo h1 {
+        font-size: 24px;
+    }
+
+    .textoBem-vindo p {
+        font-size: 16px;
+    }
+
+    /* Layouts de conteúdo */
+    .layoutConteudo {
+        flex-direction: column;
+        margin: 15px 0;
+        padding: 20px 15px;
+        gap: 15px;
+    }
+
+    .layoutConteudo img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Textos de conteúdo */
+    .textoConteudo h2 {
+        font-size: 20px;
+    }
+
+    .textoConteudo h3 {
+        font-size: 18px;
+    }
+
+    .textoConteudo p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* Seção de dicas */
+    .dicaReceitas h1 {
+        font-size: 22px;
+    }
+
+    .dicaReceitas p {
+        font-size: 14px;
+        line-height: 1.6;
+    }
+
+    /* Fundo colorido */
+    .layoutFicaDica {
+        padding: 20px;
+    }
+}
+
+/* ========== PARA TABLETS ========== */
+@media (min-width: 769px) and (max-width: 1024px) {
+    header {
+        flex-wrap: wrap;
+    }
+
+    nav ul {
+        gap: 15px;
+    }
+
+    .layoutConteudo {
+        padding: 40px 50px;
+    }
+
+    .textoBem-vindo h1 {
+        font-size: 28px;
+    }
+
+    .boas-vindas {
+        padding: 100px 40px;
+    }
+}
+
+/* ========== PARA DESKTOP ========== */
+@media (min-width: 1025px) {
+    header {
+        align-items: center;
+    }
+
+    nav ul {
+        gap: 20px;
+    }
+
+    .layoutConteudo {
+        flex-direction: row;
+    }
+}
