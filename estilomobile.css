@@ -140,4 +140,8 @@
     .layoutConteudo {
         flex-direction: row;
     }
+    .container img {
+        margin: 50px;
+        height: 80px;
+    }
 }
